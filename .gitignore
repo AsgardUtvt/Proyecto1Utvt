@@ -1,0 +1,4 @@
+# Ingnora archivos .exe
+*.exe
+# Ingora archivos .out
+*.out
