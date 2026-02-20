@@ -1,12 +1,26 @@
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
+
+
+//Inicializacion de funciones.
 void LogoAscii();
 void MenuCosas();
+void LimpiarPantalla();
+void EsperarTecla();
+
 
 int main()
 {
+	bool salir = false;
+	do
+	{
 	LogoAscii();
 	MenuCosas();
+	EsperarTecla();
+	LimpiarPantalla();
+	}while(!salir);
 	return 0;
 }
 
@@ -33,6 +47,24 @@ void MenuCosas()
 	cout << "3. Historial de compras" << endl;
 	cout << "4. Pedidos" << endl;
 	cout << "5. Configuración" << endl;
+	cout << "6. Salir" << endl;
 	cout << "Selecciona una opción: " << endl;
 
+
 }
+
+
+void LimpiarPantalla()
+{
+	system("clear||cls");
+}
+
+void EsperarTecla()
+{
+	 
+	cout << "Preciona cualquier tecla." << endl;
+	cin.get();
+}
+
+
+
