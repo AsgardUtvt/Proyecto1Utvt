@@ -2,5 +2,7 @@
 *.exe
 # Ingora archivos .out
 *.out
+# Archivos vim
 *.swo
 *.swp
+*.swn
