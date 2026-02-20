@@ -2,3 +2,5 @@
 *.exe
 # Ingora archivos .out
 *.out
+*.swo
+*.swp
