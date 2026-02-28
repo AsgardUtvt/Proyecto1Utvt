@@ -168,7 +168,7 @@ void LogotipoAscii();
 int main()
 {
 	cout << "Hola mundo";
-	cout << "Hola como estan" << endl;
+	cout << "Hola como estan " << endl;
 	return 0;
 >>>>>>> Stashed changes
 
